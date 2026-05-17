@@ -112,60 +112,106 @@
     </section>
 
     <!-- How It Works Section -->
-    <section id="how-it-works" class="section">
+    <section id="how-it-works" class="section how-section">
       <p class="section-label">How it works</p>
 
       <h2>3 simple steps</h2>
 
-      <div class="steps-grid">
+      <div class="simple-steps-row">
 
-        <article class="step-card">
+        <!-- Step 1 -->
+        <article class="simple-step">
           <span class="step-number">1</span>
 
-          <div class="mini-phone">
-            <div class="mini-phone-header"></div>
-            <div class="mini-slip-row"></div>
-            <div class="mini-slip-row short"></div>
-            <div class="mini-slip-row"></div>
-            <div class="mini-amount">฿15,000.00</div>
+          <div class="simple-phone scan-phone">
+            <div class="scan-corner top-left"></div>
+            <div class="scan-corner top-right"></div>
+            <div class="scan-corner bottom-left"></div>
+            <div class="scan-corner bottom-right"></div>
+
+            <div class="slip-bank-row">
+              <span class="bank-dot red"></span>
+              <div>
+                <strong>โอนไปยัง</strong>
+                <small>17 พ.ค. 2568 21:16</small>
+              </div>
+            </div>
+
+            <div class="slip-bank-row">
+              <span class="bank-dot green"></span>
+              <div>
+                <strong>ผู้รับโอน</strong>
+                <small>xxxx-x-x1234-x</small>
+              </div>
+            </div>
+
+            <div class="slip-bank-row">
+              <span class="bank-dot purple"></span>
+              <div>
+                <strong>ยอดเงิน</strong>
+                <small>฿15,000.00</small>
+              </div>
+            </div>
           </div>
 
           <h3>Import slip image</h3>
           <p>เลือกหรือนำภาพสลิปธนาคาร</p>
         </article>
 
-        <article class="step-card">
+        <div class="step-arrow" aria-hidden="true">›</div>
+
+        <!-- Step 2 -->
+        <article class="simple-step">
           <span class="step-number">2</span>
 
-          <div class="mini-phone">
-            <div class="mini-phone-title">Detected information</div>
-            <div class="mini-field">
+          <div class="simple-phone review-phone">
+            <h4>Detected information</h4>
+
+            <div class="review-row">
               <span>Amount</span>
               <strong>฿15,000.00</strong>
             </div>
-            <div class="mini-field">
+
+            <div class="review-row">
               <span>Date</span>
-              <strong>17 May 2026</strong>
+              <strong>17 May 2568</strong>
             </div>
-            <div class="mini-field">
+
+            <div class="review-row">
               <span>Bank</span>
-              <strong>KBank</strong>
+              <strong>KBank ••••1234</strong>
             </div>
-            <button class="mini-button">Review &amp; Edit</button>
+
+            <div class="review-row">
+              <span>To</span>
+              <strong>SCB ••••5678</strong>
+            </div>
+
+            <div class="review-category">
+              <span>Category</span>
+              <strong>Salary</strong>
+            </div>
+
+            <button class="review-button">Review &amp; Edit</button>
           </div>
 
           <h3>Review detected data</h3>
           <p>ตรวจสอบและแก้ไขข้อมูลได้ง่าย</p>
         </article>
 
-        <article class="step-card">
+        <div class="step-arrow" aria-hidden="true">›</div>
+
+        <!-- Step 3 -->
+        <article class="simple-step">
           <span class="step-number">3</span>
 
-          <div class="mini-phone success">
-            <div class="success-circle">✓</div>
-            <div class="mini-success-title">Expense saved!</div>
-            <div class="mini-amount">฿15,000.00</div>
-            <div class="mini-success-note">SCB ••••5678</div>
+          <div class="simple-phone saved-phone">
+            <div class="saved-check">✓</div>
+            <h4>Expense saved!</h4>
+            <strong class="saved-amount">฿15,000.00</strong>
+            <small>SCB ••••5678</small>
+            <small>17 May 2568 21:16</small>
+            <span class="saved-category">Salary</span>
           </div>
 
           <h3>Save expense record</h3>
