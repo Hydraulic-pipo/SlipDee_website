@@ -547,4 +547,30 @@ a {
   .page-content {
     padding: 28px;
   }
+  .logo-image {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(20, 184, 166, 0.16);
+}
+
+.hero-image {
+  width: min(520px, 100%);
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 24px 48px rgba(15, 23, 42, 0.12));
+}
+
+.iphone-preview {
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.iphone-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 }
