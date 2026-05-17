@@ -3,18 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>SlipDee - Smart Thai Bank Slip Expense Tracking</title>
+
+  <meta
+    name="description"
+    content="SlipDee helps Thai users import bank payment slip screenshots and automatically record expenses such as amount, date, receiver, bank, and category."
+  />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
+  <!-- Header -->
   <header class="site-header">
-    <a href="index.html" class="logo">
-      <img src="assets/app-icon.png" alt="SlipDee app icon" class="logo-image" />
-<span>SlipDee</span>
+    <a href="index.html" class="logo" aria-label="SlipDee home">
+      <img
+        src="assets/app-icon.png"
+        alt="SlipDee app icon"
+        class="logo-image"
+      />
+      <span>SlipDee</span>
     </a>
 
-    <nav class="nav-links">
+    <nav class="nav-links" aria-label="Main navigation">
       <a href="#features">Features</a>
       <a href="#how-it-works">How it works</a>
       <a href="#privacy">Privacy</a>
@@ -23,18 +36,23 @@
   </header>
 
   <main>
+
+    <!-- Hero Section -->
     <section class="hero">
       <div class="hero-text">
         <p class="eyebrow">Thai bank slip expense tracker</p>
+
         <h1>SlipDee</h1>
+
         <h2>Smart Thai bank slip expense tracking</h2>
+
         <p class="hero-description">
           Import Thai bank payment slip screenshots and let SlipDee automatically
           record amounts, dates, receivers, banks, and categories — so you can
           focus on what matters.
         </p>
 
-        <a href="#coming-soon" class="app-store-badge">
+        <a href="#coming-soon" class="app-store-badge" aria-label="Coming soon on the App Store">
           <span class="apple-symbol"></span>
           <span>
             <small>Coming soon on the</small>
@@ -44,155 +62,223 @@
       </div>
 
       <div class="hero-visual">
-        <div class="receipt-card">
-          <div class="receipt-corner"></div>
-          <div class="receipt-face">•‿•</div>
-          <div class="receipt-line long"></div>
-          <div class="receipt-line medium"></div>
-          <div class="receipt-line short"></div>
-          <div class="receipt-check">✓</div>
-        </div>
+        <img
+          src="assets/hero-receipt.png"
+          alt="Friendly SlipDee receipt illustration"
+          class="hero-image"
+        />
       </div>
     </section>
 
+    <!-- Features Section -->
     <section id="features" class="section">
       <p class="section-label">Features</p>
+
       <h2>Everything you need to track expenses</h2>
 
       <div class="feature-grid">
+
         <article class="feature-card">
-          <div class="feature-icon">▣</div>
+          <div class="feature-icon" aria-hidden="true">▣</div>
           <h3>Scan Thai bank slips</h3>
           <p>นำเข้าสลิปจากธนาคารไทยได้หลากหลาย</p>
         </article>
 
         <article class="feature-card">
-          <div class="feature-icon">📅</div>
-          <h3>Auto-detect amount & date</h3>
+          <div class="feature-icon" aria-hidden="true">📅</div>
+          <h3>Auto-detect amount &amp; date</h3>
           <p>ระบบอ่านข้อมูลอัตโนมัติ แม่นยำ รวดเร็ว</p>
         </article>
 
         <article class="feature-card">
-          <div class="feature-icon">◔</div>
+          <div class="feature-icon" aria-hidden="true">◔</div>
           <h3>Daily expense summary</h3>
           <p>สรุปรายจ่ายประจำวัน เข้าใจง่าย ในที่เดียว</p>
         </article>
 
         <article class="feature-card">
-          <div class="feature-icon">CSV</div>
+          <div class="feature-icon feature-icon-text" aria-hidden="true">CSV</div>
           <h3>CSV export</h3>
           <p>ส่งออกข้อมูลรายจ่ายเพื่อนำไปใช้ต่อได้สะดวก</p>
         </article>
 
         <article class="feature-card">
-          <div class="feature-icon">🔒</div>
+          <div class="feature-icon" aria-hidden="true">🔒</div>
           <h3>Privacy-first processing</h3>
           <p>ประมวลผลบนอุปกรณ์ของคุณ ปลอดภัย เป็นส่วนตัว</p>
         </article>
+
       </div>
     </section>
 
+    <!-- How It Works Section -->
     <section id="how-it-works" class="section">
       <p class="section-label">How it works</p>
+
       <h2>3 simple steps</h2>
 
       <div class="steps-grid">
+
         <article class="step-card">
           <span class="step-number">1</span>
-          <div class="phone-placeholder">
-            <div class="phone-line"></div>
-            <div class="phone-line"></div>
-            <div class="phone-amount">฿15,000.00</div>
+
+          <div class="mini-phone">
+            <div class="mini-phone-header"></div>
+            <div class="mini-slip-row"></div>
+            <div class="mini-slip-row short"></div>
+            <div class="mini-slip-row"></div>
+            <div class="mini-amount">฿15,000.00</div>
           </div>
+
           <h3>Import slip image</h3>
           <p>เลือกหรือนำภาพสลิปธนาคาร</p>
         </article>
 
         <article class="step-card">
           <span class="step-number">2</span>
-          <div class="phone-placeholder">
-            <div class="phone-line"></div>
-            <div class="phone-line"></div>
-            <div class="phone-line"></div>
-            <button>Review & Edit</button>
+
+          <div class="mini-phone">
+            <div class="mini-phone-title">Detected information</div>
+            <div class="mini-field">
+              <span>Amount</span>
+              <strong>฿15,000.00</strong>
+            </div>
+            <div class="mini-field">
+              <span>Date</span>
+              <strong>17 May 2026</strong>
+            </div>
+            <div class="mini-field">
+              <span>Bank</span>
+              <strong>KBank</strong>
+            </div>
+            <button class="mini-button">Review &amp; Edit</button>
           </div>
+
           <h3>Review detected data</h3>
           <p>ตรวจสอบและแก้ไขข้อมูลได้ง่าย</p>
         </article>
 
         <article class="step-card">
           <span class="step-number">3</span>
-          <div class="phone-placeholder success">
+
+          <div class="mini-phone success">
             <div class="success-circle">✓</div>
-            <div class="phone-amount">฿15,000.00</div>
+            <div class="mini-success-title">Expense saved!</div>
+            <div class="mini-amount">฿15,000.00</div>
+            <div class="mini-success-note">SCB ••••5678</div>
           </div>
+
           <h3>Save expense record</h3>
           <p>บันทึกเป็นรายจ่ายเรียบร้อย</p>
         </article>
+
       </div>
     </section>
 
+    <!-- Privacy Section -->
     <section id="privacy" class="privacy-section">
       <div class="privacy-art">
-        <div class="shield">🔒</div>
+        <div class="shield" aria-hidden="true">🔒</div>
       </div>
 
       <div class="privacy-content">
         <p class="section-label">Privacy First</p>
+
         <h2>Your data is always yours</h2>
 
         <div class="privacy-grid">
-          <div>
+
+          <div class="privacy-item">
+            <div class="privacy-icon" aria-hidden="true">🖼</div>
             <strong>User-selected images only</strong>
             <p>คุณเป็นผู้เลือกสลิปเองทุกครั้งที่นำเข้า</p>
           </div>
-          <div>
+
+          <div class="privacy-item">
+            <div class="privacy-icon" aria-hidden="true">💬</div>
             <strong>No SMS reading</strong>
             <p>ไม่อ่านข้อความ SMS</p>
           </div>
-          <div>
+
+          <div class="privacy-item">
+            <div class="privacy-icon" aria-hidden="true">🏦</div>
             <strong>No bank account access</strong>
             <p>ไม่เชื่อมต่อบัญชีธนาคาร</p>
           </div>
-          <div>
+
+          <div class="privacy-item">
+            <div class="privacy-icon" aria-hidden="true">👤</div>
             <strong>No personal data selling</strong>
             <p>ไม่ขายข้อมูลส่วนบุคคล</p>
           </div>
+
         </div>
       </div>
     </section>
 
+    <!-- App Preview Section -->
     <section id="coming-soon" class="section">
       <p class="section-label">App Preview</p>
+
       <h2>Designed for everyday simplicity</h2>
 
       <div class="preview-grid">
-  <div class="iphone-preview">
-    <img src="assets/screenshot-1.png" alt="SlipDee dashboard screen" />
-  </div>
-  <div class="iphone-preview">
-    <img src="assets/screenshot-2.png" alt="SlipDee scan slip screen" />
-  </div>
-  <div class="iphone-preview">
-    <img src="assets/screenshot-3.png" alt="SlipDee review details screen" />
-  </div>
-  <div class="iphone-preview">
-    <img src="assets/screenshot-4.png" alt="SlipDee reports screen" />
-  </div>
-  <div class="iphone-preview">
-    <img src="assets/screenshot-5.png" alt="SlipDee CSV export screen" />
-  </div>
-</div>
+
+        <div class="iphone-preview">
+          <img
+            src="assets/screenshot-1.png"
+            alt="SlipDee dashboard screen"
+          />
+        </div>
+
+        <div class="iphone-preview">
+          <img
+            src="assets/screenshot-2.png"
+            alt="SlipDee scan slip screen"
+          />
+        </div>
+
+        <div class="iphone-preview">
+          <img
+            src="assets/screenshot-3.png"
+            alt="SlipDee review details screen"
+          />
+        </div>
+
+        <div class="iphone-preview">
+          <img
+            src="assets/screenshot-4.png"
+            alt="SlipDee reports screen"
+          />
+        </div>
+
+        <div class="iphone-preview">
+          <img
+            src="assets/screenshot-5.png"
+            alt="SlipDee CSV export screen"
+          />
+        </div>
+
+      </div>
     </section>
+
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <div>
-      <a href="index.html" class="logo">
-        <div class="logo-icon">✓</div>
+      <a href="index.html" class="logo" aria-label="SlipDee home">
+        <img
+          src="assets/app-icon.png"
+          alt="SlipDee app icon"
+          class="logo-image"
+        />
         <span>SlipDee</span>
       </a>
-      <p>จัดการรายจ่ายจากสลิปธนาคารไทยให้ง่ายขึ้น ในแอปเดียว</p>
+
+      <p>
+        จัดการรายจ่ายจากสลิปธนาคารไทยให้ง่ายขึ้น ในแอปเดียว
+      </p>
     </div>
 
     <div>
@@ -212,7 +298,9 @@
     </div>
   </footer>
 
-  <p class="copyright">© 2026 SlipDee. All rights reserved.</p>
+  <p class="copyright">
+    © 2026 SlipDee. All rights reserved.
+  </p>
 
 </body>
 </html>
