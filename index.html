@@ -3,300 +3,361 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>SlipDee - Smart Thai Bank Slip Expense Tracking</title>
-
+  <title>SlipDee - Thai bank slip expense tracking for iPhone</title>
   <meta
     name="description"
-    content="SlipDee helps Thai users import bank payment slip screenshots and automatically record expenses such as amount, date, receiver, bank, and category."
+    content="SlipDee helps Thai users import bank slip screenshots, review detected details, and save income or expense records in a simple privacy-first iPhone app."
   />
-
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
-  <!-- Header -->
-  <header class="site-header">
-    <a href="index.html" class="logo" aria-label="SlipDee home">
-      <img
-        src="assets/app-icon.png"
-        alt="SlipDee app icon"
-        class="logo-image"
-      />
-      <span>SlipDee</span>
-    </a>
-
-    <nav class="nav-links" aria-label="Main navigation">
-      <a href="#features">Features</a>
-      <a href="#how-it-works">How it works</a>
-      <a href="#privacy">Privacy</a>
-      <a href="#coming-soon" class="nav-button">Coming Soon</a>
-    </nav>
-  </header>
-
-  <main>
-
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-text">
-        <p class="eyebrow">Thai bank slip expense tracker</p>
-
-        <h1>SlipDee</h1>
-
-        <h2>Smart Thai bank slip expense tracking</h2>
-
-        <p class="hero-description">
-          Import Thai bank payment slip screenshots and let SlipDee automatically
-          record amounts, dates, receivers, banks, and categories — so you can
-          focus on what matters.
-        </p>
-
-        <a href="#coming-soon" class="app-store-badge" aria-label="Coming soon on the App Store">
-          <span class="apple-symbol"></span>
-          <span>
-            <small>Coming soon on the</small>
-            <strong>App Store</strong>
-          </span>
-        </a>
-      </div>
-
-      <div class="hero-visual">
-        <img
-          src="assets/hero-receipt.png"
-          alt="Friendly SlipDee receipt illustration"
-          class="hero-image"
-        />
-      </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="section">
-      <p class="section-label">Features</p>
-
-      <h2>Everything you need to track expenses</h2>
-
-      <div class="feature-grid">
-
-        <article class="feature-card">
-          <div class="feature-icon" aria-hidden="true">▣</div>
-          <h3>Scan Thai bank slips</h3>
-          <p>นำเข้าสลิปจากธนาคารไทยได้หลากหลาย</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon" aria-hidden="true">📅</div>
-          <h3>Auto-detect amount &amp; date</h3>
-          <p>ระบบอ่านข้อมูลอัตโนมัติ แม่นยำ รวดเร็ว</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon" aria-hidden="true">◔</div>
-          <h3>Daily expense summary</h3>
-          <p>สรุปรายจ่ายประจำวัน เข้าใจง่าย ในที่เดียว</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon feature-icon-text" aria-hidden="true">CSV</div>
-          <h3>CSV export</h3>
-          <p>ส่งออกข้อมูลรายจ่ายเพื่อนำไปใช้ต่อได้สะดวก</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon" aria-hidden="true">🔒</div>
-          <h3>Privacy-first processing</h3>
-          <p>ประมวลผลบนอุปกรณ์ของคุณ ปลอดภัย เป็นส่วนตัว</p>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- How It Works Section -->
-    <section id="how-it-works" class="section how-section">
-      <p class="section-label">How it works</p>
-
-      <h2>3 simple steps</h2>
-
-      <div class="simple-steps-row">
-
-        <!-- Step 1 -->
-        <article class="simple-step">
-          <span class="step-number">1</span>
-
-          <div class="step-image-card">
-            <img
-              src="assets/step-1-import.png"
-              alt="SlipDee import slip screen"
-            />
-          </div>
-
-          <h3>Import slip image</h3>
-          <p>เลือกหรือนำภาพสลิปธนาคาร</p>
-        </article>
-
-        <div class="step-arrow" aria-hidden="true">›</div>
-
-        <!-- Step 2 -->
-        <article class="simple-step">
-          <span class="step-number">2</span>
-
-          <div class="step-image-card">
-            <img
-              src="assets/step-2-review.png"
-              alt="SlipDee review detected transaction data screen"
-            />
-          </div>
-
-          <h3>Review detected data</h3>
-          <p>ตรวจสอบและแก้ไขข้อมูลได้ง่าย</p>
-        </article>
-
-        <div class="step-arrow" aria-hidden="true">›</div>
-
-        <!-- Step 3 -->
-        <article class="simple-step">
-          <span class="step-number">3</span>
-
-          <div class="step-image-card">
-            <img
-              src="assets/step-3-saved.png"
-              alt="SlipDee saved expense dashboard screen"
-            />
-          </div>
-
-          <h3>Save expense record</h3>
-          <p>บันทึกเป็นรายจ่ายเรียบร้อย</p>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- Privacy Section -->
-    <section id="privacy" class="privacy-section">
-      <div class="privacy-art">
-        <div class="shield" aria-hidden="true">🔒</div>
-      </div>
-
-      <div class="privacy-content">
-        <p class="section-label">Privacy First</p>
-
-        <h2>Your data is always yours</h2>
-
-        <div class="privacy-grid">
-
-          <div class="privacy-item">
-            <div class="privacy-icon" aria-hidden="true">🖼</div>
-            <strong>User-selected images only</strong>
-            <p>คุณเป็นผู้เลือกสลิปเองทุกครั้งที่นำเข้า</p>
-          </div>
-
-          <div class="privacy-item">
-            <div class="privacy-icon" aria-hidden="true">💬</div>
-            <strong>No SMS reading</strong>
-            <p>ไม่อ่านข้อความ SMS</p>
-          </div>
-
-          <div class="privacy-item">
-            <div class="privacy-icon" aria-hidden="true">🏦</div>
-            <strong>No bank account access</strong>
-            <p>ไม่เชื่อมต่อบัญชีธนาคาร</p>
-          </div>
-
-          <div class="privacy-item">
-            <div class="privacy-icon" aria-hidden="true">👤</div>
-            <strong>No personal data selling</strong>
-            <p>ไม่ขายข้อมูลส่วนบุคคล</p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- App Preview Section -->
-    <section id="coming-soon" class="section">
-      <p class="section-label">App Preview</p>
-
-      <h2>Designed for everyday simplicity</h2>
-
-      <div class="preview-grid">
-
-        <div class="iphone-preview">
-          <img
-            src="assets/screenshot-1.png"
-            alt="SlipDee dashboard screen"
-          />
-        </div>
-
-        <div class="iphone-preview">
-          <img
-            src="assets/screenshot-2.png"
-            alt="SlipDee scan slip screen"
-          />
-        </div>
-
-        <div class="iphone-preview">
-          <img
-            src="assets/screenshot-3.png"
-            alt="SlipDee review details screen"
-          />
-        </div>
-
-        <div class="iphone-preview">
-          <img
-            src="assets/screenshot-4.png"
-            alt="SlipDee reports screen"
-          />
-        </div>
-
-        <div class="iphone-preview">
-          <img
-            src="assets/screenshot-5.png"
-            alt="SlipDee CSV export screen"
-          />
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div>
-      <a href="index.html" class="logo" aria-label="SlipDee home">
+  <div class="page-shell">
+    <header class="site-header">
+      <a href="index.html" class="brand" aria-label="SlipDee home">
         <img
           src="assets/app-icon.png"
           alt="SlipDee app icon"
-          class="logo-image"
+          class="brand-icon"
         />
-        <span>SlipDee</span>
+        <span class="brand-text">SlipDee</span>
       </a>
 
-      <p>
-        จัดการรายจ่ายจากสลิปธนาคารไทยให้ง่ายขึ้น ในแอปเดียว
-      </p>
-    </div>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#privacy">Privacy</a>
+        <a href="support.html">Support</a>
+        <a href="#coming-soon" class="button button-nav">Coming soon</a>
+      </nav>
+    </header>
 
-    <div>
-      <h4>Privacy Policy</h4>
-      <a href="privacy.html">Privacy Policy</a>
-    </div>
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Privacy-first Thai slip tracker for iPhone</p>
+          <h1>Turn bank slip screenshots into clear daily records.</h1>
+          <p class="hero-lead">
+            SlipDee helps you import Thai payment slip screenshots, review the
+            detected details, and save income or expense entries in seconds.
+          </p>
 
-    <div>
-      <h4>Support</h4>
-      <a href="support.html">Help Center</a>
-      <a href="support.html#faq">FAQ</a>
-    </div>
+          <div class="hero-actions">
+            <a href="#coming-soon" class="button button-primary">Coming soon on the App Store</a>
+            <a href="#privacy" class="button button-secondary">How privacy works</a>
+          </div>
 
-    <div>
-      <h4>Contact</h4>
-      <a href="mailto:clertlum@gmail.com">clertlum@gmail.com</a>
-    </div>
-  </footer>
+          <ul class="hero-points" aria-label="SlipDee highlights">
+            <li>User-selected slip images only</li>
+            <li>No SMS reading or bank account connection</li>
+            <li>Review every detail before you save</li>
+          </ul>
+        </div>
 
-  <p class="copyright">
-    © 2026 SlipDee. All rights reserved.
-  </p>
+        <div class="hero-visual">
+          <div class="hero-glow" aria-hidden="true"></div>
 
+          <article class="device device-primary">
+            <img
+              src="assets/screenshot-1.png"
+              alt="SlipDee home screen showing expense tracking overview"
+            />
+          </article>
+
+          <article class="floating-card summary-card">
+            <p class="card-label">Detected from slip</p>
+            <div class="summary-row">
+              <span>Amount</span>
+              <strong>฿1,245.00</strong>
+            </div>
+            <div class="summary-row">
+              <span>Type</span>
+              <strong class="expense-chip">Expense</strong>
+            </div>
+            <div class="summary-row">
+              <span>Date</span>
+              <strong>20 May 2026</strong>
+            </div>
+          </article>
+
+          <article class="floating-card mini-card">
+            <p class="mini-card-title">Review before saving</p>
+            <p class="mini-card-text">Amount, bank, receiver, note, and category stay editable.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="signal-band" aria-label="Key value points">
+        <article class="signal-card">
+          <p class="signal-kicker">Simple</p>
+          <h2>Built for everyday Thai expense tracking</h2>
+          <p>Import a slip, check the details, and keep moving.</p>
+        </article>
+
+        <article class="signal-card">
+          <p class="signal-kicker">Private</p>
+          <h2>No bank sync, no SMS access</h2>
+          <p>SlipDee focuses on records, not transactions or account access.</p>
+        </article>
+
+        <article class="signal-card">
+          <p class="signal-kicker">Ready</p>
+          <h2>Designed for App Store launch</h2>
+          <p>A clean static site today, with a clear coming-soon message.</p>
+        </article>
+      </section>
+
+      <section class="section intro-section" id="features">
+        <div class="section-heading">
+          <p class="eyebrow">Why SlipDee</p>
+          <h2>A calm, focused way to manage slip-based spending.</h2>
+          <p class="section-lead">
+            SlipDee is made for people who already receive Thai bank slips and
+            want a faster way to organize them without turning the experience
+            into a bank dashboard.
+          </p>
+        </div>
+
+        <div class="value-grid">
+          <article class="value-card">
+            <span class="icon-badge">OCR</span>
+            <h3>Import slip screenshots</h3>
+            <p>Select the bank slip image you want to record. Nothing is scanned automatically.</p>
+          </article>
+
+          <article class="value-card">
+            <span class="icon-badge">REV</span>
+            <h3>Review detected details</h3>
+            <p>Check amount, date, bank, receiver, and category before anything is saved.</p>
+          </article>
+
+          <article class="value-card">
+            <span class="icon-badge">LOG</span>
+            <h3>Save cleaner records</h3>
+            <p>Keep your daily income and expense entries in one simple iPhone workflow.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section steps-section" id="how-it-works">
+        <div class="section-heading">
+          <p class="eyebrow">How it works</p>
+          <h2>Three quick steps from screenshot to saved record.</h2>
+        </div>
+
+        <div class="steps-grid">
+          <article class="step-card">
+            <div class="step-topline">
+              <span class="step-number">01</span>
+              <p>Select a slip</p>
+            </div>
+            <div class="device step-device">
+              <img
+                src="assets/step-1-import.png"
+                alt="SlipDee import screen for selecting a Thai bank slip image"
+              />
+            </div>
+            <h3>Import the image you want to track</h3>
+            <p>Choose a Thai bank slip screenshot from your device when you are ready.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-topline">
+              <span class="step-number">02</span>
+              <p>Check the result</p>
+            </div>
+            <div class="device step-device">
+              <img
+                src="assets/step-2-review.png"
+                alt="SlipDee review screen showing detected transaction details"
+              />
+            </div>
+            <h3>Review and edit detected details</h3>
+            <p>Confirm the amount, date, bank, receiver, and category before saving.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-topline">
+              <span class="step-number">03</span>
+              <p>Save the record</p>
+            </div>
+            <div class="device step-device">
+              <img
+                src="assets/step-3-saved.png"
+                alt="SlipDee saved record screen after the expense entry is created"
+              />
+            </div>
+            <h3>Keep the entry in your daily log</h3>
+            <p>Save the final record and maintain a clearer history of spending and income.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section showcase-section">
+        <div class="showcase-copy">
+          <p class="eyebrow">What you can track</p>
+          <h2>Focused details, not financial noise.</h2>
+          <p class="section-lead">
+            SlipDee is built to help you capture the information people usually
+            need from a payment slip, then organize it in a clean mobile flow.
+          </p>
+
+          <div class="detail-list">
+            <article class="detail-item">
+              <h3>Amounts and dates</h3>
+              <p>Quickly confirm the key numbers that matter for budgeting and record-keeping.</p>
+            </article>
+
+            <article class="detail-item">
+              <h3>Receiver and bank details</h3>
+              <p>Useful slip information stays visible and easy to verify before saving.</p>
+            </article>
+
+            <article class="detail-item">
+              <h3>Categories and export-friendly records</h3>
+              <p>Organize expenses for later review, with CSV export planned for practical handoff.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="showcase-visuals">
+          <article class="device device-secondary">
+            <img
+              src="assets/screenshot-2.png"
+              alt="SlipDee screen for scanning or importing a bank slip"
+            />
+          </article>
+          <article class="device device-secondary">
+            <img
+              src="assets/screenshot-3.png"
+              alt="SlipDee review screen with categorized transaction details"
+            />
+          </article>
+        </div>
+      </section>
+
+      <section class="privacy-panel" id="privacy">
+        <div class="privacy-copy">
+          <p class="eyebrow">Privacy first</p>
+          <h2>Your records stay under your control.</h2>
+          <p class="section-lead">
+            SlipDee is a tracking app, not a bank, payment processor, trading
+            app, or investment tool. The product is designed around manual user
+            choice and straightforward privacy boundaries.
+          </p>
+
+          <div class="privacy-grid">
+            <article class="privacy-item">
+              <h3>User-selected images only</h3>
+              <p>You choose which bank slip screenshots to import each time.</p>
+            </article>
+
+            <article class="privacy-item">
+              <h3>No SMS reading</h3>
+              <p>SlipDee is not designed to access your text messages or bank alerts.</p>
+            </article>
+
+            <article class="privacy-item">
+              <h3>No bank account connection</h3>
+              <p>The app does not connect directly to bank accounts or perform transactions.</p>
+            </article>
+
+            <article class="privacy-item">
+              <h3>No personal data selling</h3>
+              <p>Your personal financial records are not a product to be sold.</p>
+            </article>
+          </div>
+        </div>
+
+        <aside class="privacy-card">
+          <p class="card-label">Why this matters</p>
+          <h3>Review first, save second.</h3>
+          <p>
+            The experience is built around a simple human check between
+            detection and storage, which helps keep your records accurate and
+            understandable.
+          </p>
+          <a href="privacy.html" class="text-link">Read privacy policy</a>
+        </aside>
+      </section>
+
+      <section class="section preview-section" id="coming-soon">
+        <div class="section-heading">
+          <p class="eyebrow">App preview</p>
+          <h2>Made for a clean iPhone experience.</h2>
+          <p class="section-lead">
+            A few early screens from SlipDee. The app is currently being
+            prepared for release on the App Store.
+          </p>
+        </div>
+
+        <div class="preview-grid">
+          <article class="device preview-device">
+            <img src="assets/screenshot-1.png" alt="SlipDee dashboard preview" />
+          </article>
+          <article class="device preview-device">
+            <img src="assets/screenshot-2.png" alt="SlipDee import preview" />
+          </article>
+          <article class="device preview-device">
+            <img src="assets/screenshot-3.png" alt="SlipDee review preview" />
+          </article>
+          <article class="device preview-device">
+            <img src="assets/screenshot-4.png" alt="SlipDee reports preview" />
+          </article>
+          <article class="device preview-device">
+            <img src="assets/screenshot-5.png" alt="SlipDee export preview" />
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-panel">
+        <div>
+          <p class="eyebrow">Coming soon</p>
+          <h2>SlipDee is on the way to the App Store.</h2>
+          <p>
+            The website stays intentionally light and simple while the app is
+            being prepared for release.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <a href="support.html" class="button button-primary">Contact support</a>
+          <a href="privacy.html" class="button button-secondary">Privacy policy</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="SlipDee home">
+          <img
+            src="assets/app-icon.png"
+            alt="SlipDee app icon"
+            class="brand-icon"
+          />
+          <span class="brand-text">SlipDee</span>
+        </a>
+        <p>Simple Thai bank slip expense tracking for iPhone, designed with privacy in mind.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Explore</h3>
+        <a href="#how-it-works">How it works</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#coming-soon">App preview</a>
+      </div>
+
+      <div class="footer-links">
+        <h3>Info</h3>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="support.html">Support</a>
+      </div>
+
+      <div class="footer-links">
+        <h3>Contact</h3>
+        <a href="mailto:clertlum@gmail.com">clertlum@gmail.com</a>
+      </div>
+    </footer>
+
+    <p class="site-meta">© 2026 SlipDee. All rights reserved.</p>
+  </div>
 </body>
 </html>
